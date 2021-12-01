@@ -1,0 +1,126 @@
+@font-face{
+    font-family: 'IRANSans';
+    /* eot */
+    src: url('../fonts/IRANSansWeb.eot') format('eot'),
+    /* ttf */
+         url('../fonts/IRANSansWeb.ttf') format('truetype'),
+         /* woff2 */
+         url('../fonts/IRANSansWeb.woff2') format('woff2'),
+         /* woff */
+         url('../fonts/IRANSansWeb.woff')format('woff'),
+}
+body{
+   font-family: 'IRANSans';
+}
+
+
+/* header image */
+.header-iamge {
+  max-width: 100%;
+  background-image: url("../img/1.jpg");
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+}
+.header-iamge img {
+  width: 100%;
+  height: 100px;
+}
+/* haedr text */
+.text-header {
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 150px;
+}
+/* main cart */
+.main-cart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+/* cart */
+.card {
+  margin-top: 40px;
+  box-shadow: 2px 1px 10px 0 rgb(167, 167, 167);
+  border-radius: 8px;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.cart-butoon {
+  display: flex;
+  justify-content: space-around;
+}
+.cart-butoon .spn {
+  color: grey;
+}
+
+.cr {
+  display: flex;
+}
+.cr .button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f9e46f8;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  padding: 10px;
+  border: none;
+  transition: 0.3s all;
+  margin: 5px;
+  direction: ltr;
+}
+
+.button span {
+  opacity: 0;
+  margin-left: 10px;
+  transition: 0.3s all;
+}
+
+.button:hover {
+  width: 80px;
+}
+
+.button:hover span {
+  opacity: 1;
+}
+.hans{
+  font-size: 1.5rem;
+
+ border-bottom: 2px solid red;
+}
+.heder-cart{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.btn-pish{
+  border:none;
+  background: rgb(214, 26, 26);
+ color: white;
+ padding: 4px;
+border-radius: 6px;
+}
+.star{
+  color: gold;
+}
+.ico{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  
+}
+.ico i{
+  font-size:30px;
+}
+.bg{
+  background: #727272;
+  color:#fff;
+}
